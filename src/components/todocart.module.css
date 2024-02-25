@@ -1,0 +1,31 @@
+.card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.item {
+    display: block;
+    margin: 0 auto;
+    font-size: 30px;
+    margin-top: 20px;
+    font-weight: 300;
+}
+
+.line {
+    border: 1px solid #f1f1f5;
+}
+
+.deleteButton {
+    float: right;
+    background-color: transparent;
+    border-color: teal;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.completed {
+    text-decoration: line-through;
+}
